@@ -26,7 +26,8 @@ int main()
             printf("Lower number please !\n");
         }
     }while(guessed!=random);
-        
-    printf("Number of guesses : %d",no_of_guesses);
+    
+    printf("CORRECT !!!\n");
+    printf("Number of guesses : %d\n",no_of_guesses);
     return 0;
 }
